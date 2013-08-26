@@ -1,60 +1,82 @@
-package SORT;
+import java.io.*;
+import java.util.Arrays;
 
-public class Mergesort {
-  private int[] numbers;
-  private int[] helper;
 
-  private int number;
+public class MergeSort {
+	
+    public static void main(String[] args) throws IOException{
 
-  public void sort(int[] values) {
-    this.numbers = values;
-    number = values.length;
-    this.helper = new int[number];
-    mergesort(0, number - 1);
-  }
+		System.out.println ("How large is your list?");
 
-  private void mergesort(int low, int high) {
-    // Check if low is smaller then high, if not then the array is sorted
-    if (low < high) {
-      // Get the index of the element which is in the middle
-      int middle = low + (high - low) / 2;
-      // Sort the left side of the array
-      mergesort(low, middle);
-      // Sort the right side of the array
-      mergesort(middle + 1, high);
-      // Combine them both
-      merge(low, middle, high);
+		BufferedReader R = new BufferedReader(new InputStreamReader(System.in));
+        int arraySize = Integer.parseInt(R.readLine());
+				
+		System.out.println ("Start entering numbers from your list, one at a time");
+		
+        int[] inputArray = new int[arraySize];
+        for (int i = 0; i < arraySize; i++) {
+            inputArray[i] = Integer.parseInt(R.readLine());
+        }
+        mergeSort(inputArray);
+		
+		System.out.println ("Sorted list:  ");
+        for (int j = 0; j < inputArray.length; j++) {
+            System.out.println(inputArray[j]);
+        }
+		
     }
-  }
-
-  private void merge(int low, int middle, int high) {
-
-    // Copy both parts into the helper array
-    for (int i = low; i <= high; i++) {
-      helper[i] = numbers[i];
+	
+    static void mergeSort(int[] A) {
+        if (A.length > 1) {
+            int q = A.length/2;
+			
+            int[] leftArray = Arrays.copyOfRange(A, 0, q);
+            int[] rightArray = Arrays.copyOfRange(A,q,A.length);
+			
+            mergeSort(leftArray);
+            mergeSort(rightArray);
+			
+            merge(A,leftArray,rightArray);
+        }
     }
-
-    int i = low;
-    int j = middle + 1;
-    int k = low;
-    // Copy the smallest values from either the left or the right side back
-    // to the original array
-    while (i <= middle && j <= high) {
-      if (helper[i] <= helper[j]) {
-        numbers[k] = helper[i];
-        i++;
-      } else {
-        numbers[k] = helper[j];
-        j++;
-      }
-      k++;
+	
+    static void merge(int[] a, int[] l, int[] r) {
+        int totElem = l.length + r.length;
+        //int[] a = new int[totElem];
+        int i,li,ri;
+        i = li = ri = 0;
+        while ( i < totElem) {
+            if ((li < l.length) && (ri<r.length)) {
+                if (l[li] < r[ri]) {
+                    a[i] = l[li];
+                    i++;
+                    li++;
+                }
+                else {
+                    a[i] = r[ri];
+                    i++;
+                    ri++;
+                }
+            }
+            else {
+                if (li >= l.length) {
+                    while (ri < r.length) {
+                        a[i] = r[ri];
+                        i++;
+                        ri++;
+                    }
+                }
+                if (ri >= r.length) {
+                    while (li < l.length) {
+                        a[i] = l[li];
+                        li++;
+                        i++;
+                    }
+                }
+            }
+        }
+        //return a;
+		
     }
-    // Copy the rest of the left side of the array into the target array
-    while (i <= middle) {
-      numbers[k] = helper[i];
-      k++;
-      i++;
-    }
-
-  }
-} 
+	
+}
