@@ -15,13 +15,19 @@ public class QuickSort
 	public static int partition(int A[], int f, int l)
 	{
 		int pivot = A[f];
+		
+//		for (int i=0 ; i < l ; i++)
+//		    System.out.print("inside partition: " + A[i] + " \n");
+// prints the list and pivot for debugging		
+//		System.out.print("compare " + A[f] + " and " + A[l] + " and " + pivot + " \n");
+		
 		while (f < l)
 		{
-			if (A[f] == pivot || A[l] == pivot) 
-			{
-				System.out.println("list to sort should consist of distinct integers");
-				System.exit(0);
-			}
+			//if (A[f] == pivot || A[l] == pivot) 
+			//{
+		//		System.out.println("list to sort should consist of distinct integers");
+		//		System.exit(0);
+		//	}  program will hang if there are repeated integers
 			while (A[f] < pivot) f++;
 			while (A[l] > pivot) l--;
 			swap (A, f, l);
@@ -41,9 +47,10 @@ public class QuickSort
 	public static void main(String argv[])
 	{
 		int A[] = new int[argv.length];
+		    System.out.println("you entered " + argv.length + " values");
 		for (int i=0 ; i < argv.length ; i++)
 			A[i] = Integer.parseInt(argv[i]);
-		
+
 		QuickSort(A, 0, argv.length-1);
 		
 		for (int i=0 ; i < argv.length ; i++) System.out.print(A[i] + " ");
