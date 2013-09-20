@@ -11,10 +11,13 @@ public class Palindrome
         int count = 0, ctr = 0;
         givenstring = str.toCharArray();
 				System.out.println(givenstring);
-        for(count = str.length() - 1; count >= 0; count++)
+        for(count = str.length() - 1; count >= 0; count--)
         {
+					System.out.println ("B count & ctr " + count + " " + ctr);
             reverse[ctr] = givenstring[count];
+			System.out.println ("M count & ctr " + count + " " + ctr + " reverse: " + reverse[ctr]);
             ctr++;
+			System.out.println ("E count & ctr " + count + " " + ctr);
         }
         for(count = 0; count < str.length(); count++)
         {
