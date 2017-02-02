@@ -1,0 +1,3 @@
+LottieAnimationView animationView = findViewById(R.id.animation_view);
+animationView.setAnimation("hello-world.json");
+animationView.loop(true);
