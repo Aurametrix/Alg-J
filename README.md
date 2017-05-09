@@ -22,3 +22,7 @@ it should not located in the same directory as the Palintest.java file.
 
 To run:
 java <class with main method to run> [<command line args>, ...] 
+
+== Fitness
++ [Google Fit's REST API](https://developers.google.com/fit/rest/)
++ [Android fit examples](https://github.com/googlesamples/android-fit)
