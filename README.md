@@ -26,3 +26,7 @@ java <class with main method to run> [<command line args>, ...]
 == Fitness
 + [Google Fit's REST API](https://developers.google.com/fit/rest/)
 + [Android fit examples](https://github.com/googlesamples/android-fit)
+
+
+[Run Java in the browser (Console/AWT/Swing)](http://javafiddle.leaningtech.com/)
+[Chrome Extension to run old Java Applets](http://dogfeathers.com/java/octicos.html)
