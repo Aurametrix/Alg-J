@@ -30,3 +30,24 @@ java <class with main method to run> [<command line args>, ...]
 
 [Run Java in the browser (Console/AWT/Swing)](http://javafiddle.leaningtech.com/)
 [Chrome Extension to run old Java Applets](http://dogfeathers.com/java/octicos.html)
+
+
+Top mistakes
++ Neglecting Existing Libraries
++ Missing the ‘break’ Keyword in a Switch-Case Block
++ Memory Leaks
++ Excessive Garbage Allocation
++ Using Null References without Need
++ Ignoring Exceptions
++ Concurrent Modification Exception
++ Breaking Contracts
++ Using Raw Type Instead of a Parameterized One
+
++ Forgetting to Free Resources
++ Memory Leaks
++ Excessive Garbage Allocation
++ Using Null References without Need
++ Ignoring Exceptions
++ Concurrent Modification Exception
++ Breaking Contracts
++ Using Raw Type Instead of a Parameterized One
