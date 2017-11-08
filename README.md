@@ -32,6 +32,8 @@ java <class with main method to run> [<command line args>, ...]
 [Chrome Extension to run old Java Applets](http://dogfeathers.com/java/octicos.html)
 
 
+[Javalin library](https://javalin.io/news/javalin-1.0.0-stable.html) - 
+
 Top mistakes
 + Neglecting Existing Libraries
 + Missing the ‘break’ Keyword in a Switch-Case Block
