@@ -33,6 +33,8 @@ java <class with main method to run> [<command line args>, ...]
 [Run Java in the browser (Console/AWT/Swing)](http://javafiddle.leaningtech.com/)
 [Chrome Extension to run old Java Applets](http://dogfeathers.com/java/octicos.html)
 
+[Hawt.io](http://hawt.io/) - a modular web console for Java
+
 
 [Javalin library](https://javalin.io/news/javalin-1.0.0-stable.html) - 
 
