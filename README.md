@@ -22,10 +22,10 @@ running this creates a directory testpackage
 Palindrome.java file must be moved to the package folder testpackage as
 it should not located in the same directory as the Palintest.java file. 
 
-==== To run:
+## To run:
 java <class with main method to run> [<command line args>, ...] 
 
-== Fitness
+## Fitness
 + [Google Fit's REST API](https://developers.google.com/fit/rest/)
 + [Android fit examples](https://github.com/googlesamples/android-fit)
 
@@ -68,3 +68,5 @@ java <class with main method to run> [<command line args>, ...]
 
 + [K-9 mail](https://github.com/k9mail/k-9)
 + [ALl-in-one devops](https://github.com/theonedev/onedev)
+
++ [TornadoVM](https://www.infoq.com/articles/tornadovm-java-gpu-fpga/) - Accelerating Java with GPUs and FPGAs
