@@ -70,3 +70,5 @@ java <class with main method to run> [<command line args>, ...]
 + [ALl-in-one devops](https://github.com/theonedev/onedev)
 
 + [TornadoVM](https://www.infoq.com/articles/tornadovm-java-gpu-fpga/) - Accelerating Java with GPUs and FPGAs
+
++ [Ward](https://github.com/B-Software/Ward) - minimalistic server dashboard
