@@ -74,3 +74,5 @@ java <class with main method to run> [<command line args>, ...]
 + [Building a simple neural net](https://smalldata.tech/blog/2016/05/03/building-a-simple-neural-net-in-java)
 
 + [Ward](https://github.com/B-Software/Ward) - minimalistic server dashboard
+
++ [StreetComplete](https://github.com/streetcomplete/StreetComplete) - editor of OpnStreetMaps
