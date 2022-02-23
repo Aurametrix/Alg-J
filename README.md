@@ -76,3 +76,5 @@ java <class with main method to run> [<command line args>, ...]
 + [Ward](https://github.com/B-Software/Ward) - minimalistic server dashboard
 
 + [StreetComplete](https://github.com/streetcomplete/StreetComplete) - editor of OpnStreetMaps
+    
++ [Tiny embeddable HTTP server in Java (github.com/nanohttpd)](https://github.com/NanoHttpd/nanohttpd)    
