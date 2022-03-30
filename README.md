@@ -38,7 +38,8 @@ java <class with main method to run> [<command line args>, ...]
 
 [Javalin library](https://javalin.io/news/javalin-1.0.0-stable.html) - 
 
-
+[Modern Java Environment](https://news.ycombinator.com/item?id=30841581)
+    
 [Quick Tips for Fast Code on the JVM](https://gist.github.com/djspiewak/464c11307cabc80171c90397d4ec34ef) /see also on [HN](https://news.ycombinator.com/item?id=16039943)
 
 #### Top mistakes
