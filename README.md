@@ -81,7 +81,8 @@ java <class with main method to run> [<command line args>, ...]
     
 + [Tiny embeddable HTTP server in Java (github.com/nanohttpd)](https://github.com/NanoHttpd/nanohttpd)    
 
-+ [Geo-Assist](https://github.com/thegeekyasian/geo-assist) - an in-memory spatial engine to store and query spatial data 
++ [Geo-Assist](https://github.com/thegeekyasian/geo-assist) - an in-memory spatial engine to store and query spatial data
++ [Tracking Java Native Memory With JDK Flight Recorder](https://www.morling.dev/blog/tracking-java-native-memory-with-jdk-flight-recorder/)
 
 
 
