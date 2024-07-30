@@ -79,7 +79,8 @@ java <class with main method to run> [<command line args>, ...]
 
 + [StreetComplete](https://github.com/streetcomplete/StreetComplete) - editor of OpnStreetMaps
     
-+ [Tiny embeddable HTTP server in Java (github.com/nanohttpd)](https://github.com/NanoHttpd/nanohttpd)    
++ [Tiny embeddable HTTP server in Java (github.com/nanohttpd)](https://github.com/NanoHttpd/nanohttpd)
++ [Julia for Economists](https://github.com/cpfiffer/julia-bootcamp-2022) -- see also [QuantEcon](https://quantecon.org/)
 
 + [Geo-Assist](https://github.com/thegeekyasian/geo-assist) - an in-memory spatial engine to store and query spatial data
 + [Tracking Java Native Memory With JDK Flight Recorder](https://www.morling.dev/blog/tracking-java-native-memory-with-jdk-flight-recorder/)
