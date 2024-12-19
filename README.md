@@ -71,6 +71,7 @@ java <class with main method to run> [<command line args>, ...]
 + [K-9 mail](https://github.com/k9mail/k-9)
 + [ALl-in-one devops](https://github.com/theonedev/onedev)
 + [Fake where your phone is located](https://github.com/mcastillof/FakeTraveler)
++ [Java in the Small](https://horstmann.com/unblog/2024-12-11/index.html)
 
 + [TornadoVM](https://www.infoq.com/articles/tornadovm-java-gpu-fpga/) - Accelerating Java with GPUs and FPGAs
 
